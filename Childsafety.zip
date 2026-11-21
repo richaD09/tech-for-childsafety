@@ -1,0 +1,20 @@
+
+ChildSafeIndia/
+│
+├── index.html
+├── safety.html
+├── parents.html
+├── teachers.html
+├── quiz.html
+├── help.html
+├── about.html
+├── style.css
+├── script.js
+│
+└── assets/
+    └── images/
+        ├── home.jpg
+        ├── safety.jpg
+        ├── parents.jpg
+        ├── teachers.jpg
+        └── about.jpg

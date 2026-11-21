@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safety Quiz | ChildSafe India</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="announcement">A safer childhood begins with awareness. <a href="help.html">Know where to get help →</a></div>
+<header class="navbar">
+<a class="brand" href="index.html"><span class="brand-icon">✳</span> childsafe<span class="brand-india">.india</span></a>
+<button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+<nav class="nav-links"><a href="index.html">Home</a><a href="safety.html">Online Safety</a><a href="parents.html">Parents</a><a href="teachers.html">Educators</a><a class="active" href="quiz.html">Safety Quiz</a><a href="about.html">About</a></nav>
+<a class="nav-cta" href="help.html">Get Help ↗</a>
+</header>
+
+<main>
+<section class="page-hero section-wrap quiz-page-heading">
+<span class="eyebrow">TEST YOUR KNOWLEDGE</span>
+<h1>Think smart.<br><span>Stay safe online.</span></h1>
+<p>Five simple situations. Let's see how well you know your online safety.</p>
+</section>
+
+<section class="quiz-container section-wrap">
+<div class="quiz-box" id="quizBox">
+<div class="quiz-top">
+<span class="quiz-label">DIGITAL SAFETY QUIZ</span>
+<span id="quizProgressText">QUESTION 1 OF 5</span>
+</div>
+<div class="quiz-progress"><div id="quizProgress"></div></div>
+<div id="quizContent">
+<div class="quiz-question" id="questionText"></div>
+<div class="quiz-options" id="options"></div>
+<div class="quiz-feedback" id="feedback"></div>
+<button class="btn btn-primary quiz-next" id="nextBtn" disabled>Next question →</button>
+</div>
+<div id="quizResult" class="quiz-result hidden">
+<div class="result-icon">✓</div>
+<span class="eyebrow">QUIZ COMPLETED</span>
+<h2 id="resultTitle"></h2>
+<p id="resultMessage"></p>
+<div class="result-score" id="resultScore"></div>
+<button class="btn btn-primary" id="restartBtn">Try again ↻</button>
+<a class="text-link result-home" href="index.html">Back to home →</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="footer"><div class="footer-top"><a class="brand brand-footer" href="index.html"><span class="brand-icon">✳</span> childsafe<span class="brand-india">.india</span></a><p>Helping build a safer world for every child.</p></div><div class="footer-bottom"><span>© 2026 ChildSafe India · College awareness project</span><div><a href="about.html">About</a><a href="help.html">Get Help</a><a href="safety.html">Safety Guides</a></div></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
